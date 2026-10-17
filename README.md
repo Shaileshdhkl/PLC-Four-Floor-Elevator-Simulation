@@ -8,7 +8,7 @@ A four-floor elevator simulation developed with ladder logic in Rockwell Automat
 
 - [Complete Ladder Logic Documentation (PDF)](Elevator_Complete_Ladder_Logic_Documentation.pdf) — 77 rungs explained with 22 selected CCW screenshots in program order.
 - [Project and Functional Testing Report (Word)](Elevator_Control_System_Project_Report%20%281%29.docx) — system architecture, test procedures, observed results, fault recovery, and troubleshooting.
-- [CCW Solution File](Elevator_4Floor.ccwsln) — uploaded solution file; completeness and reopening in CCW have not been verified.
+- [CCW Solution File](Elevator_4Floor.ccwsln) — uploaded solution file; c
 
 The rung document shows the implemented program; the testing report documents its tested behavior.
 
