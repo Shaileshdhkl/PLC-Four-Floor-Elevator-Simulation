@@ -4,6 +4,14 @@ Shailesh Dhakal | Electrical Engineering | University of South Florida
 
 A four-floor elevator simulation developed with ladder logic in Rockwell Automation Connected Components Workbench using the Allen-Bradley Micro850 simulator. The project combines state-based sequencing, stored floor requests, motion interlocks, fault diagnostics, and controlled recovery.
 
+## Project Documentation
+
+- [Complete Ladder Logic Documentation (PDF)](Elevator_Complete_Ladder_Logic_Documentation.pdf) — 77 rungs explained with 22 selected CCW screenshots in program order.
+- [Project and Functional Testing Report (Word)](Elevator_Control_System_Project_Report%20%281%29.docx) — system architecture, test procedures, observed results, fault recovery, and troubleshooting.
+- [CCW Solution File](Elevator_4Floor.ccwsln) — uploaded solution file; completeness and reopening in CCW have not been verified.
+
+The rung document shows the implemented program; the testing report documents its tested behavior.
+
 ## Engineering Highlights
 
 - Four-floor request handling with directional destination selection and a locked active target.
@@ -29,15 +37,6 @@ Normal Stop pauses the active trip while retaining its request and destination. 
 
 The project report documents 23 checks covering floor feedback, upward/downward travel, stored and additional requests, door operation, pause/resume, injected faults, blocked reset, and deliberate restart. All listed checks passed after the documented corrections. Several checks were performed within the same run.
 
-## Documentation Guide
-
-Two complementary documents have been prepared for this portfolio:
-
-- Complete Ladder Logic Documentation: 77 rungs explained with 22 selected CCW screenshots in program order.
-- Project Report: system architecture, test procedures, observed results, fault recovery, and watchdog troubleshooting.
-
-The rung screenshots document the implementation; the testing report documents execution results. These attachments are pending upload to this repository.
-
 ## Tools
 
 Connected Components Workbench | Allen-Bradley Micro850 Simulator | Ladder Logic
@@ -45,7 +44,3 @@ Connected Components Workbench | Allen-Bradley Micro850 Simulator | Ladder Logic
 ## Project Scope
 
 This is an educational software simulation with simulated position and door feedback. It does not include physical elevator hardware, commissioned I/O, a completed HMI, or a safety-rated emergency-stop system.
-
-## Source Artifacts
-
-Available artifacts include generated program text, a variable listing, and configuration files. They are pending upload and have not been verified as a complete standalone importable CCW project.
